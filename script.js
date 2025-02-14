@@ -3,7 +3,7 @@ const findBtn = document.getElementById("findBtn");
 const resultsDiv = document.getElementById("results");
 const heading = document.getElementById('heading');
 
-const apiKey = 'c7581142a4f74e9e9706464bdc5f37da';
+const apiKey = '811935e2ad8346e89d246f9518412581';
 const apiUrl = 'https://api.spoonacular.com/recipes/findByIngredients';
 
 function displayRecipes(data) {
