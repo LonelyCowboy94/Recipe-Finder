@@ -10,11 +10,11 @@ body{
     align-items: center;
     font-family: Verdana;
     font-size: 18px;
-    background: url('https://images.pexels.com/photos/4038668/pexels-photo-4038668.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; !important
+    background: url('https://images.pexels.com/photos/4038668/pexels-photo-4038668.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')
+    no-repeat center center / cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+
 }
 
 #header h1{
